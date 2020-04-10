@@ -1,0 +1,56 @@
+---------------------------------------------
+PREDICTION RESULT 
+Image : flowers/test/90/image_04469.jpg
+DISPLAY TOP 5 MOST PROBABLE FLOWER CATEGORIES
+AND THEIR PROBABILITIES
+---------------------------------------------
+FLOWER CATEGORY               PROBABILITY
+---------------------------------------------
+canna lily           :         0.790
+fire lily            :         0.051
+cautleya spicata     :         0.045
+yellow iris          :         0.040
+rose                 :         0.025
+---------------------------------------------
+VERDICT:
+Actual flower name canna lily matches the 
+top prediction by our model!
+---------------------------------------------
+
+---------------------------------------------
+PREDICTION RESULT 
+Image : flowers/test/31/image_06903.jpg
+DISPLAY TOP 5 MOST PROBABLE FLOWER CATEGORIES
+AND THEIR PROBABILITIES
+---------------------------------------------
+FLOWER CATEGORY               PROBABILITY
+---------------------------------------------
+carnation            :         0.303
+marigold             :         0.292
+canna lily           :         0.150
+fire lily            :         0.034
+rose                 :         0.030
+---------------------------------------------
+VERDICT:
+Actual flower name Carnation matches the 
+top prediction by our model!
+---------------------------------------------
+
+---------------------------------------------
+PREDICTION RESULT 
+Image : flowers/test/60/image_02958.jpg
+DISPLAY TOP 5 MOST PROBABLE FLOWER CATEGORIES
+AND THEIR PROBABILITIES
+---------------------------------------------
+FLOWER CATEGORY               PROBABILITY
+---------------------------------------------
+pink-yellow dahlia   :         0.925
+orange dahlia        :         0.073
+water lily           :         0.001
+primula              :         0.000
+barbeton daisy       :         0.000
+---------------------------------------------
+VERDICT:
+Actual flower name Pink-Yellow Dahlia matches the 
+top prediction by our model!
+---------------------------------------------
