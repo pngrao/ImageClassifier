@@ -19,13 +19,15 @@ Further training of the model with pretrained network **densenet201** and my cus
 
 **Output files** : predict_output.txt
 
-**Prediction testing on Windows10**
+## Prediction testing on Windows10
+
 Below is a comparison of prediction output for images that are not part of the "flowers" dataset. Two of the checkpoints used are **RunA**: densenet201 with 84% accuracy and **RunB**: densenet201 with 89% accuracy. RunA fails to predict images as *_Rose_* with higher probability. Clearly, **RunB offers better prediction**, with prediction as high as **0.99**
 
 ![RunA vs RunB](ut_image.jpg)
 
 
-**Fixed Issues**
+## Fixed Issues
+
 1. Windows10 local run of predict.py fails during load_checkpoint.
 
 Fix: map_location is set to device and passed through torch.load
@@ -37,3 +39,5 @@ Fix: Convert device type to str before comparing with "cpu"
 3. Windows10 local run of predict.py fails to print verdict for non-dataset image.
 
 Fix: Print actual flower name and verdict only for sample image from dataset "flowers"
+
+![](AIPND_graduation_certificate.jpg)
