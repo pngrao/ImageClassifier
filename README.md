@@ -1,9 +1,9 @@
 # Image Classifier
 This is the Udacity final project for Nanodegree - Artificial Intelligence Programming with Python
 
-**Part 1** of the project accomplishes training of a custom deep neural network classifier model on ![102 category flower dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html). The incredible training computation speed is achieved by the use of ![CUDA GPU](https://en.wikipedia.org/wiki/CUDA).
+**Part 1** of the project accomplishes training of a custom deep neural network classifier model on [102 category flower dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html). The incredible training computation speed is achieved by the use of [CUDA GPU](https://en.wikipedia.org/wiki/CUDA).
 
-Using ![Torchvision's pretrained model](https://pytorch.org/docs/0.3.0/torchvision/models.html) **densenet201** and my custom classifier, an accuracy of **85.166%** was achieved at the time of submission.  
+Using [Torchvision's pretrained model](https://pytorch.org/docs/0.3.0/torchvision/models.html) **densenet201** and my custom classifier, an accuracy of **85.166%** was achieved at the time of submission.  
 Other models that can be used with this Image Classifier are **vgg16** with an accuracy of 79.714%
 and **densenet121** with accuracy of 82.145%. Each of these models were run on a classifier with three hidden layers of size [120, 100, 80],
 with a default dropout rate of 0.2, default learning rate of 0.003 for 10 epochs.
