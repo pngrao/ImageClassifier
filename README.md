@@ -10,14 +10,14 @@ with a default dropout rate of 0.2, default learning rate of 0.003 for 10 epochs
 
 Further training of the model with pretrained network **densenet201** and my custom classifier, for increased number of epochs **showed promise**. While using default learning rate and dropout, training for **15 epochs**, improved validation accuracy. But, testing accuracy dropped to **84%**. Retaining default learning rate and dropout values, and further training for **20 epochs** resulted in the best possible accuracy of **89.252%**.
 
-    **Code files** : Image Classifier Project.ipynb
+    Code files : Image Classifier Project.ipynb
 
 
 **Part 2** of the project creates a command line python application to train and predict a sample image's most probable categories.
 
-    **Code files** : train.py, predict.py and network_utils.py
+    Code files : train.py, predict.py and network_utils.py
 
-    **Output files** : predict_output.txt
+    Output files : predict_output.txt
 
 ## Application testing on Windows10
 
