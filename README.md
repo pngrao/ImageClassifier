@@ -43,6 +43,6 @@ Fix: Convert device type to str before comparing with "cpu"
 Fix: Print actual flower name and verdict only for sample image from dataset "flowers"
 
 
-## Nanodegree Certificate
+## Sample Output
 
-![](AIPND_graduation_certificate.jpg)
+![](sample_output.jpg)
