@@ -45,4 +45,4 @@ Fix: Print actual flower name and verdict only for sample image from dataset "fl
 
 ## Sample Output
 
-![](sample_output.jpg)
+![](sample_output.png)
